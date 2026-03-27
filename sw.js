@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grammar-kids-v1';
+const CACHE_NAME = 'Kids_Rhymes-v2';
 const urlsToCache = [
   './',
   './index.html',
