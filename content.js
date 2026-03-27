@@ -722,5 +722,711 @@ const bookData = [
                 </p>
             </div>
         `
+    },
+    {
+        title: "৫১. আয় বৃষ্টি ঝেঁপে 🌧️",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #2196F3;">আয় বৃষ্টি ঝেঁপে 🌧️</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    আয় বৃষ্টি ঝেঁপে,<br>
+                    ধান দেব মেপে। 🌾<br>
+                    লেবুর পাতায় করমচা,<br>
+                    যা বৃষ্টি ঝরে যা। 🍋
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫২. খোকন খোকন করে মায় 🤱",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E91E63;">খোকন খোকন করে মায় 🤱</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    খোকন খোকন করে মায়,<br>
+                    খোকন গেছে কাদের নায়। ⛵<br>
+                    সাতটা কাকে দাঁড় বায়,<br>
+                    খোকন রে তুই ঘরে আয়। 👦
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৩. খোকা যাবে রথে 🛝",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #4CAF50;">খোকা যাবে রথে 🛝</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    খোকা যাবে রথে চড়ে,<br>
+                    ব্যাঙ হবে সারথি। 🐸<br>
+                    মাঠে ঘাটে ঘাস খাবে,<br>
+                    খোকন ছানার হাতি। 🐘
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৪. এক দুই তিন 🔢",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FFC107;">এক দুই তিন 🔢</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    এক দুই তিন,<br>
+                    নাচে তা ধিন ধিন। 💃<br>
+                    চার পাঁচ ছয়,<br>
+                    কারো নেই ভয়। 🦁
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৫. বৃষ্টি পড়ে টাপুর টুপুর 🌧️",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #9C27B0;">বৃষ্টি পড়ে টাপুর টুপুর 🌧️</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    বৃষ্টি পড়ে টাপুর টুপুর,<br>
+                    নদেয় এলো বান। 🌊<br>
+                    শিব ঠাকুরের বিয়ে হবে,<br>
+                    তিন কন্যে দান। 👰
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৬. Wheels on the Bus 🚌",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #00BCD4;">Wheels on the Bus 🚌</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    The wheels on the bus go<br>
+                    Round and round, 🔄<br>
+                    Round and round, round and round.<br>
+                    All through the town. 🏙️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৭. Five Little Monkeys 🐒",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #795548;">Five Little Monkeys 🐒</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Five little monkeys jumping on the bed,<br>
+                    One fell off and bumped his head. 🤕<br>
+                    Mama called the doctor and the doctor said,<br>
+                    "No more monkeys jumping on the bed!" 🚫
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৮. Little Bo Peep 🐑",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FF5722;">Little Bo Peep 🐑</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Little Bo-Peep has lost her sheep,<br>
+                    And doesn't know where to find them. 🤔<br>
+                    Leave them alone, and they'll come home,<br>
+                    Bringing their tails behind them. 🌾
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৫৯. Pat-a-Cake 🍰",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #607D8B;">Pat-a-Cake 🍰</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Pat-a-cake, pat-a-cake, baker's man,<br>
+                    Bake me a cake as fast as you can. 👨‍🍳<br>
+                    Pat it and prick it, and mark it with B,<br>
+                    Put it in the oven for baby and me. 👶
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬০. Pussycat, Pussycat 🐈",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #8BC34A;">Pussycat, Pussycat 🐈</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Pussycat, pussycat, where have you been?<br>
+                    I've been to London to visit the Queen. 👑<br>
+                    Pussycat, pussycat, what did you there?<br>
+                    I frightened a little mouse under her chair. 🐁
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬১. Two Little Dicky Birds 🐦",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E040FB;">Two Little Dicky Birds 🐦</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Two little dicky birds sitting on a wall,<br>
+                    One named Peter, one named Paul. 🕊️<br>
+                    Fly away Peter! Fly away Paul!<br>
+                    Come back Peter! Come back Paul! 🔙
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬২. Three Blind Mice 🐁",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #F44336;">Three Blind Mice 🐁</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Three blind mice. Three blind mice.<br>
+                    See how they run. See how they run. 🏃<br>
+                    They all ran after the farmer's wife,<br>
+                    Who cut off their tails with a carving knife. 🔪
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৩. I Hear Thunder ⚡",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #3F51B5;">I Hear Thunder ⚡</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    I hear thunder, I hear thunder,<br>
+                    Oh, don't you? Oh, don't you? 🌩️<br>
+                    Pitter-patter raindrops, pitter-patter raindrops,<br>
+                    I'm wet through! So are you! ☔
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৪. If You're Happy 😊",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #4CAF50;">If You're Happy 😊</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    If you're happy and you know it,<br>
+                    Clap your hands! 👏<br>
+                    If you're happy and you know it,<br>
+                    Clap your hands! 👏
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৫. This Old Man 👴",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #795548;">This Old Man 👴</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    This old man, he played one,<br>
+                    He played knick-knack on my thumb. 🤚<br>
+                    With a knick-knack paddywhack,<br>
+                    Give a dog a bone. 🦴
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৬. Head, Shoulders, Knees 👤",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E91E63;">Head, Shoulders, Knees 👤</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Head, shoulders, knees and toes,<br>
+                    Knees and toes. 🦶<br>
+                    And eyes, and ears, and mouth, and nose.<br>
+                    Head, shoulders, knees and toes. 👁️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৭. Little Miss Muffet 🕷️",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #9C27B0;">Little Miss Muffet 🕷️</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Little Miss Muffet sat on a tuffet,<br>
+                    Eating her curds and whey. 🥣<br>
+                    Along came a spider, who sat down beside her,<br>
+                    And frightened Miss Muffet away. 🏃‍♀️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৮. The Alphabet Song 🔤",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #03A9F4;">The Alphabet Song 🔤</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    A-B-C-D-E-F-G,<br>
+                    H-I-J-K-L-M-N-O-P. 🎵<br>
+                    Q-R-S, T-U-V,<br>
+                    W-X, Y and Z. 🅰️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৬৯. Five Little Ducks 🦆",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FFC107;">Five Little Ducks 🦆</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Five little ducks went swimming one day,<br>
+                    Over the hill and far away. 🏞️<br>
+                    Mother duck said, "Quack, quack, quack, quack."<br>
+                    But only four little ducks came back. 🦢
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭০. BINGO 🐶",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FF5722;">BINGO 🐶</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    There was a farmer had a dog,<br>
+                    And Bingo was his name-o. 👨‍🌾<br>
+                    B-I-N-G-O, B-I-N-G-O,<br>
+                    And Bingo was his name-o. 🐕
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭১. Old Mother Hubbard 🦴",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #607D8B;">Old Mother Hubbard 🦴</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Old Mother Hubbard went to the cupboard,<br>
+                    To give the poor dog a bone. 🐶<br>
+                    When she came there, the cupboard was bare,<br>
+                    And so the poor dog had none. 🥣
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭২. Mary, Mary, Quite Contrary 🌷",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #8BC34A;">Mary, Mary, Quite Contrary 🌷</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Mary, Mary, quite contrary,<br>
+                    How does your garden grow? 🌻<br>
+                    With silver bells, and cockle shells,<br>
+                    And pretty maids all in a row. 🌼
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৩. Hey Diddle Diddle 🐄",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E040FB;">Hey Diddle Diddle 🐄</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Hey diddle diddle, the cat and the fiddle,<br>
+                    The cow jumped over the moon. 🌙<br>
+                    The little dog laughed to see such sport,<br>
+                    And the dish ran away with the spoon. 🥄
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৪. Rub-a-dub-dub 🛁",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #009688;">Rub-a-dub-dub 🛁</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Rub-a-dub-dub,<br>
+                    Three men in a tub. 🛀<br>
+                    And who do you think they be?<br>
+                    The butcher, the baker, the candlestick-maker! 🕯️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৫. Pop Goes the Weasel 🎈",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #F44336;">Pop Goes the Weasel 🎈</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Half a pound of tuppenny rice,<br>
+                    Half a pound of treacle. 🍚<br>
+                    That’s the way the money goes,<br>
+                    Pop! goes the weasel. 🎉
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৬. দোল দোল দুলুনি 👶",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #3F51B5;">দোল দোল দুলুনি 👶</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    দোল দোল দুলুনি,<br>
+                    রাঙা মাথায় চিরুনি। 梳<br>
+                    বর আসবে যখনি,<br>
+                    নিয়ে যাবে তখনি। 🚗
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৭. খুকু যাবে শ্বশুরবাড়ি 👰",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #4CAF50;">খুকু যাবে শ্বশুরবাড়ি 👰</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    খুকু যাবে শ্বশুরবাড়ি,<br>
+                    সঙ্গে যাবে কে? 🚶‍♂️<br>
+                    বাড়িতে আছে হুলো বিড়াল,<br>
+                    কোমর বেঁধেছে। 🐈
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৮. আমটি আমি খাব পেড়ে 🥭",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FF9800;">আমটি আমি খাব পেড়ে 🥭</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    আয় ছেলেরা আয় মেয়েরা,<br>
+                    আম কুড়াতে যাই। 🏃‍♀️<br>
+                    ঝড়ের দিনে মামার দেশে,<br>
+                    আম কুড়াতে সুখ পাই। 🌪️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৭৯. ময়না পাখি 🐦",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E91E63;">ময়না পাখি 🐦</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    ময়না পাখি ময়না পাখি,<br>
+                    কী কথা কও শুনি? 🗣️<br>
+                    খোকা ঘুমায় খাটের ওপর,<br>
+                    আমি বসে গুনি। 🛏️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮০. টিয়া পাখির ঠোঁটটি লাল 🦜",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #00BCD4;">টিয়া পাখির ঠোঁটটি লাল 🦜</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    টিয়া পাখির ঠোঁটটি লাল,<br>
+                    বসে আছে গাছের ডাল। 🌳<br>
+                    মিষ্টি সুরে গায় যে গান,<br>
+                    জুড়িয়ে যায় সবার প্রাণ। 🎶
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮১. ছিপখান তিন দাঁড় 🚣",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #795548;">ছিপখান তিন দাঁড় 🚣</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    ছিপখান তিন দাঁড়,<br>
+                    তিন জন মাল্লা। 🛶<br>
+                    চৌপর দিন-ভর,<br>
+                    দেয় দূর পাল্লা। 🌊
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮২. খোকা যাবে মাছ ধরতে 🎣",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FF5722;">খোকা যাবে মাছ ধরতে 🎣</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    খোকা যাবে মাছ ধরতে,<br>
+                    ক্ষীর নদীর কূলে।  رود<br>
+                    ছিপ নিয়ে গেল কোলা ব্যাঙে,<br>
+                    মাছ নিয়ে গেল চিলে। 🦅
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৩. প্রজাপতি প্রজাপতি 🦋",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #673AB7;">প্রজাপতি প্রজাপতি 🦋</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    প্রজাপতি প্রজাপতি,<br>
+                    কোথায় পেলে ভাই এমন রঙিন পাখা? 🎨<br>
+                    টুকটুকে লাল নীল ঝিলিমিলি আঁকাবাঁকা,<br>
+                    কোথায় পেলে ভাই এমন রঙিন পাখা? ✨
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৪. জোনাকি পোকা ✨",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FFEB3B; background: #333; padding: 5px; border-radius: 5px;">জোনাকি পোকা ✨</h2>
+                <p style="font-size: 18px; line-height: 1.8; color: #fff;">
+                    জোনাকি পোকা জোনাকি পোকা,<br>
+                    রাতের বেলা দিস যে ধোঁকা। 🌌<br>
+                    আলো জ্বেলে উড়ে যাস,<br>
+                    কোথায় তোদের বসবাস? 🏡
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৫. সোনা নাচে কোণা 💃",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #9C27B0;">সোনা নাচে কোণা 💃</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    সোনা নাচে কোণা,<br>
+                    বউ খাবে দানা। 🍚<br>
+                    দানা তো পেল না,<br>
+                    সোনা তো নাচল না। 🥺
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৬. আয় রে পাখি লেজ ঝোলা 🦜",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #03A9F4;">আয় রে পাখি লেজ ঝোলা 🦜</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    আয় রে পাখি লেজ ঝোলা,<br>
+                    খোকনকে নিয়ে কর খেলা। 🧸<br>
+                    খাবি দাবি কলকলাবি,<br>
+                    খোকনকে ঘুম পাড়াবি। 💤
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৭. ঝুমকো জবা 🌺",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #F44336;">ঝুমকো জবা 🌺</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    ঝুমকো জবা বনের দুল,<br>
+                    উঠল ফুটে বনের ফুল। 🌸<br>
+                    সবুজ পাতা ঘোমটা খোলে,<br>
+                    ঝুমকো জবা হাওয়ায় দোলে। 🍃
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৮. ব্যাঙের ছাতা 🍄",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #4CAF50;">ব্যাঙের ছাতা 🍄</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    ছাতা ধরেছে ব্যাঙের ছানা,<br>
+                    বৃষ্টি পড়ে ঝমাঝম। 🌧️<br>
+                    মাঠে ঘাটে জল জমেছে,<br>
+                    ডাকছে ব্যাঙ ঘ্যাঙর ঘ্যাঙ। 🐸
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৮৯. কাঠবিড়ালী পেয়ারা খাস 🍐",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FFC107;">কাঠবিড়ালী পেয়ারা খাস 🍐</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    কাঠবিড়ালী, কাঠবিড়ালী, তুই কি আমার খুকি?<br>
+                    পেয়ারা গাছে লুকিয়ে থেকে, দিস কেন তুই উঁকি? 👀<br>
+                    আয় না নিচে নেমে আয়, খেলব দুজন মিলে,<br>
+                    মিষ্টি একটা পেয়ারা দেব, খাবি তুই তা ছিলে। 🥭
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯০. মাকড়সা 🕷️",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #607D8B;">মাকড়সা 🕷️</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    মাকড়সা ভাই মাকড়সা,<br>
+                    জাল বোনাতেই ভরসা। 🕸️<br>
+                    মাছি পড়লে জালের ফাঁদে,<br>
+                    ভয়ে তখন বসে কাঁদে। 🪰
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯১. Hot Cross Buns 🍞",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #795548;">Hot Cross Buns 🍞</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Hot cross buns!<br>
+                    Hot cross buns! 🥖<br>
+                    One a penny, two a penny,<br>
+                    Hot cross buns! 🪙
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯২. Jack Be Nimble 🕯️",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #FF5722;">Jack Be Nimble 🕯️</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Jack be nimble,<br>
+                    Jack be quick. 🏃‍♂️<br>
+                    Jack jump over<br>
+                    The candlestick. 🔥
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৩. Pease Porridge Hot 🥣",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E91E63;">Pease Porridge Hot 🥣</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Pease porridge hot,<br>
+                    Pease porridge cold. 🧊<br>
+                    Pease porridge in the pot,<br>
+                    Nine days old. 🍲
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৪. Star Light, Star Bright 🌟",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #03A9F4;">Star Light, Star Bright 🌟</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Star light, star bright,<br>
+                    First star I see tonight. 🌠<br>
+                    I wish I may, I wish I might,<br>
+                    Have the wish I wish tonight. 🙏
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৫. Rock-a-bye Baby 🍼",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #9C27B0;">Rock-a-bye Baby 🍼</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Rock-a-bye baby, on the treetop,<br>
+                    When the wind blows, the cradle will rock. 🌬️<br>
+                    When the bough breaks, the cradle will fall,<br>
+                    And down will come baby, cradle and all. 🛏️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৬. Sing a Song of Sixpence 🥧",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #8BC34A;">Sing a Song of Sixpence 🥧</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Sing a song of sixpence,<br>
+                    A pocket full of rye. 🌾<br>
+                    Four and twenty blackbirds,<br>
+                    Baked in a pie. 🐦
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৭. The Muffin Man 🧁",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #E040FB;">The Muffin Man 🧁</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Oh, do you know the muffin man,<br>
+                    The muffin man, the muffin man? 👨‍🍳<br>
+                    Oh, do you know the muffin man,<br>
+                    Who lives on Drury Lane? 🏘️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৮. Mulberry Bush 🌳",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #4CAF50;">Mulberry Bush 🌳</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    Here we go round the mulberry bush,<br>
+                    The mulberry bush, the mulberry bush. 🌿<br>
+                    Here we go round the mulberry bush,<br>
+                    On a cold and frosty morning. ❄️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "৯৯. Itsy Bitsy Spider 🕸️",
+        content: `
+            <div style="text-align:center; padding: 10px;">
+                <h2 style="color: #009688;">Itsy Bitsy Spider 🕸️</h2>
+                <p style="font-size: 18px; line-height: 1.8;">
+                    The itsy bitsy spider climbed up the waterspout. 🕷️<br>
+                    Down came the rain and washed the spider out. 🌧️<br>
+                    Out came the sun and dried up all the rain. ☀️<br>
+                    And the itsy bitsy spider climbed up the spout again. 🕸️
+                </p>
+            </div>
+        `
+    },
+    {
+        title: "১০০. লেখক পরিচিতি 👨‍🏫",
+        content: `
+            <div style="text-align:center; padding: 20px; background: #f0f8ff; border-radius: 15px; margin-top: 20px;">
+                <img src="https://i.ibb.co.com/LDMM7qTn/d.png" alt="Author" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #03A9F4;">
+                <h3 style="color: #333; margin-bottom: 5px;">মোঃ মঞ্জুরুল হক</h3>
+                <p style="color: #666; font-weight: bold; margin-top: 0;">প্রভাষক, অর্থনীতি</p>
+                <p style="color: #666; font-size: 14px;">জিয়াউদ্দিন স্কুল এন্ড কলেজ, কিশোরগঞ্জ</p>
+                <hr style="border: 1px dashed #ccc; margin: 15px 0;">
+                <p>📞 মোবাইল: 01715247588</p>
+                <p>💬 WhatsApp: 01715247588</p>
+                <p>📧 মেইল: monjurul.jusc@gmail.com</p>
+                <p>🌐 <a href="https://www.facebook.com/himel.hemu" target="_blank" style="color: #03A9F4; text-decoration: none; font-weight: bold;">ফেসবুক প্রোফাইল</a></p>
+                
+                <p style="margin-top:20px; font-size: 14px; color: #E91E63;">
+                    ছড়াগুলো পড়ে মজা পেলে বন্ধুদের সাথে শেয়ার করতে ভুলবেন না! ✨
+                </p>
+            </div>
+        `
     }
 ];
