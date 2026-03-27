@@ -1,0 +1,131 @@
+:root {
+    --primary: #FF9F43; /* Orange */
+    --secondary: #2E86DE; /* Blue */
+    --accent: #EE5253; /* Red */
+    --bg-light: #FFF9F0;
+    --text-dark: #333;
+    --font-main: 'Comic Neue', 'Hind Siliguri', sans-serif;
+}
+
+body { margin: 0; font-family: var(--font-main); background: var(--bg-light); color: var(--text-dark); overflow-x: hidden; }
+.hidden { display: none !important; }
+
+/* Buttons */
+.primary-btn {
+    background: linear-gradient(45deg, #FF9F43, #ff6b6b); color: white;
+    padding: 15px 40px; border: none; border-radius: 50px;
+    font-size: 1.3rem; font-weight: bold; cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 159, 67, 0.4); transition: 0.3s;
+    font-family: var(--font-main);
+}
+.primary-btn:hover { transform: scale(1.05) rotate(-2deg); }
+
+.order-btn {
+    display: block; width: 80%; margin: 30px auto; padding: 15px;
+    background: #1dd1a1; color: white; text-align: center;
+    border-radius: 15px; font-weight: bold; text-decoration: none;
+    box-shadow: 0 4px 0 #10ac84; transition: 0.2s;
+}
+.order-btn:active { transform: translateY(4px); box-shadow: none; }
+
+/* Landing Page Animation */
+#landing-page {
+    height: 100vh; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; background: linear-gradient(180deg, #48dbfb 0%, #2e86de 100%);
+    color: white; overflow: hidden; position: relative;
+}
+
+/* Bubbles Animation */
+.bubbles span {
+    position: absolute; bottom: -50px; background: rgba(255,255,255,0.2);
+    border-radius: 50%; display: block; width: 60px; height: 60px;
+    animation: animate 15s linear infinite; animation-duration: calc(125s / var(--i));
+    font-size: 30px; display: flex; align-items: center; justify-content: center; font-weight: bold;
+}
+.bubbles span:nth-child(even) { background: rgba(255,255,255,0.1); }
+@keyframes animate {
+    0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-100vh) rotate(720deg); opacity: 0; }
+}
+
+/* 3D Book */
+.book-container { width: 180px; height: 260px; margin-bottom: 20px; perspective: 1000px; z-index: 10; }
+.book { width: 100%; height: 100%; position: absolute; transform-style: preserve-3d; animation: float 3s ease-in-out infinite; transform: rotateY(-25deg); }
+@keyframes float { 0%,100% { transform: translateY(0) rotateY(-25deg); } 50% { transform: translateY(-15px) rotateY(-25deg); } }
+.book-cover { position: absolute; width: 100%; height: 100%; background: var(--accent); border-radius: 5px; transform: translateZ(20px); display: flex; align-items: center; justify-content: center; text-align: center; border: 3px solid white; }
+.book-spine { position: absolute; width: 40px; height: 100%; background: #c23616; transform: rotateY(-90deg) translateZ(20px); }
+
+/* Reader Layout */
+#reader-page { display: flex; height: 100vh; }
+.sidebar { width: 260px; background: white; border-right: 2px solid #eee; display: flex; flex-direction: column; }
+.sidebar-header { padding: 20px; background: #FF9F43; color: white; display: flex; justify-content: space-between; }
+#chapter-list { list-style: none; padding: 0; margin: 0; overflow-y: auto; }
+#chapter-list li { padding: 15px; border-bottom: 1px solid #f1f1f1; cursor: pointer; font-size: 1rem; }
+#chapter-list li:hover { background: #fff2df; color: #d35400; }
+#chapter-list li.active { background: #ffebd1; border-left: 5px solid #FF9F43; font-weight: bold; }
+
+.content-area { flex: 1; height: 100vh; overflow-y: auto; background: var(--bg-light); }
+.top-bar { background: white; padding: 10px 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; align-items: center; position: sticky; top:0; z-index: 100; }
+
+.page-content {
+    max-width: 800px; margin: 20px auto; background: white; padding: 30px;
+    border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-top: 5px solid var(--secondary);
+}
+
+/* Typography & Boxes */
+h2 { color: var(--secondary); border-bottom: 2px dashed #ddd; padding-bottom: 10px; }
+.example-box { background: #e3f2fd; padding: 15px; border-radius: 10px; margin: 15px 0; border: 2px solid #bbdefb; }
+.rule-box { background: #ffeaa7; padding: 15px; border-radius: 10px; margin: 15px 0; border: 2px solid #fdcb6e; }
+.note-box { background: #ffcccc; padding: 10px; border-radius: 8px; color: #a00; font-weight: bold; }
+
+table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+th { background: var(--secondary); color: white; }
+
+/* Mobile */
+.mobile-only { display: none; background: none; border: none; font-size: 1.4rem; color: var(--secondary); }
+@media (max-width: 768px) {
+    .mobile-only { display: block; }
+    .sidebar { position: fixed; height: 100%; z-index: 100; transform: translateX(-100%); box-shadow: 5px 0 15px rgba(0,0,0,0.1); }
+    .sidebar.active { transform: translateX(0); }
+    .page-content { padding: 20px; margin: 10px; }
+}
+.install-btn {
+    position: fixed; bottom: 20px; right: 20px; background: var(--secondary); color: white;
+    padding: 10px 20px; border-radius: 30px; border: none; z-index: 1000; cursor: pointer;
+}
+/* Walking Animation CSS */
+.walking-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    pointer-events: none; /* যাতে বাটনে ক্লিক করতে সমস্যা না হয় */
+    z-index: 999;
+    overflow: hidden;
+}
+
+.students {
+    width: 200px;
+    height: 100%;
+    background-image: url('https://i.ibb.co.com/tMy5b119/meril-petroleum-jelly-100-ml-removebg-preview.png'); /* হাঁটার সিলুয়েট ছবি */
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: -200px; /* স্ক্রিনের বাইরে ডান দিকে শুরু */
+    animation: walkAcross 15s linear infinite;
+}
+
+/* অ্যানিমেশন লজিক: ডান থেকে বামে যাবে */
+@keyframes walkAcross {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-120vw); /* স্ক্রিনের বাম পাশে চলে যাবে */
+    }
+}
